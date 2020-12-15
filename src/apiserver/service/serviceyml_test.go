@@ -26,7 +26,7 @@ var serviceName = "testservice001"
 // }
 
 var replicas int32 = 1
-var image = "10.110.13.136:5000/library/mydemoshowing:1.0"
+var image = "docker.io/piranhahu/mydemoshowing:1.0"
 
 // var deploymentConfig = Deployment{
 // 	modelK8sExt.Deployment{

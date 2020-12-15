@@ -24,7 +24,7 @@ services:
     # build:
     #   context: ../../
     #   dockerfile: make/dev/container/tokenserver/Dockerfile
-    image: 10.110.27.103:6000/board/dev_tokenserver:dev
+    image: docker.io/piranhahu/dev_tokenserver:dev
     env_file:
       - ../config/tokenserver/env
     restart: always
@@ -41,7 +41,7 @@ services:
     ports:
       - 5000:5000
   gomail:    
-    image: 10.111.25.119/board/dev_gomail:dev
+    image: docker.io/piranhahu/dev_gomail:dev
     restart: always
     ports:
       - "12225:12225"

@@ -2,7 +2,7 @@ package service_test
 
 import (
 	"fmt"
-	"git/inspursoft/board/src/apiserver/service"
+	"github.com/inspursoft/board/src/apiserver/service"
 	"path/filepath"
 	"testing"
 

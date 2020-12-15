@@ -28,7 +28,7 @@ function listDeps()
 
 # set envirnment
 deps=""
-gopath=/go/src/git/inspursoft/board/
+gopath=/go/src/github.com/inspursoft/board/
 volumeDir=`dirname $(pwd)`/tests
 
 dir="$( cd "$( dirname "$0"  )" && pwd  )"

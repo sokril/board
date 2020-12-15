@@ -168,4 +168,4 @@ src/$PACKAGE_test                | Runs $PACKAGE tests
       $ make src/apiserver_clean
    ```
 
-   **Note**: the board file path:$GOPATH/src/git/inspursoft/
+   **Note**: the board file path:$GOPATH/src/github.com/inspursoft/

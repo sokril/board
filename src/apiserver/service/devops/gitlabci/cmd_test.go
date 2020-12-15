@@ -1,7 +1,7 @@
 package gitlabci_test
 
 import (
-	"git/inspursoft/board/src/apiserver/service/devops/gitlabci"
+	"github.com/inspursoft/board/src/apiserver/service/devops/gitlabci"
 	"os"
 	"testing"
 
